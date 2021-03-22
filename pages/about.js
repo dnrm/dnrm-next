@@ -4,16 +4,16 @@ import Layout from '../components/Layout';
 
 import styles from '../styles/Markdown.module.css';
 
-export default function Home() {
+export default function about() {
     return (
         <>
             <Head>
-                <title>Home | Daniel Medina</title>
+                <title>About | Daniel Medina</title>
             </Head>
             <Layout>
-                <h1 className={styles.h1}>Welcome to my Next.js project</h1>
+                <h1 className={styles.h1}>Hi! I'm Daniel Medina</h1>
                 <hr/>
-                <p>It is a very good looking website to test Next.js</p>
+                <p>I am a web developer from Mexico.</p>
             </Layout>
         </>
     )
