@@ -13,7 +13,7 @@ export default function Layout({ children }) {
                 <Link href="/contact"><a className={styles.nav}>contact</a></Link>
             </nav>
             <div className={styles.content}>
-                <img src={`https://source.unsplash.com/collection/94997000`} className={styles.cover} />
+                <img src={`https://source.unsplash.com/collection/94997000`} className={styles.cover} alt="wallpaper"/>
                 <div className={styles.text}>
                     { children }
                 </div>
