@@ -1,34 +1,36 @@
-.container {
-    display: flex;
-    justify-content: center;
-}
-
 .content {
-    margin: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 768px;
+    padding: 0px 75px;
 }
 
 .cover {
     width: 100vw;
     height: 12rem;
     object-fit: cover;
+    object-position: center;
 }
 
 .text {
     width: 100%;
     text-align: left;
     color: rgba(255, 255, 255, 0.9);
+    max-width: 768px;
 }
 
 .nav {
-    position: absolute;
+    position: relative;
     color: white;
     top: 0;
     left: 0;
     padding: 15px;
     font-size: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }

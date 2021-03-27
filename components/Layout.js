@@ -6,9 +6,14 @@ export default function Layout({ children }) {
 
     return (
         <div className={styles.container}>
-            <Link href="/"><a className={styles.nav}>dnrm</a></Link>
+            <nav className={styles.navbar}>
+                <Link href="/"><a className={styles.nav}>dnrm</a></Link>
+                <Link href="/about"><a className={styles.nav}>about</a></Link>
+                <Link href="/projects"><a className={styles.nav}>projects</a></Link>
+                <Link href="/contact"><a className={styles.nav}>contact</a></Link>
+            </nav>
             <div className={styles.content}>
-                <img src={/*`https://source.unsplash.com/random?nature`*/ `/background.jpg`} className={styles.cover} />
+                <img src={`https://source.unsplash.com/collection/94997000`} className={styles.cover} />
                 <div className={styles.text}>
                     { children }
                 </div>
