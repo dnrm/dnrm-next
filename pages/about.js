@@ -19,7 +19,7 @@ export default function about() {
         <title>About | Daniel Medina</title>
       </Head>
       <Layout>
-        <h1 className={styles.h1}>Hi! I'm {name ? name : "Loading..."}</h1>
+        <h1 className={styles.h1}>Hi! I'm {name ? name : "@dnrm"}</h1>
         <hr />
         <p>
           I'm a web developer from <em>Mexico</em>. I like to work the most with
