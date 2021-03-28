@@ -1,15 +1,24 @@
+:root {
+  --background: #292828;
+  --link: #7daea3;
+  --bold: #A9B665;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: rgb(38, 41, 43);;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--background);
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+em {
+  color: var(--bold);
 }
 
 * {
@@ -18,5 +27,5 @@ a {
 
 .link {
   text-decoration: underline;
-  color: rgb(228, 228, 228);
+  color: var(--link);
 }
