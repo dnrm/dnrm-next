@@ -8,7 +8,11 @@ export default function about() {
   const [name, setName] = useState(null);
 
   useEffect(() => {
-    fetch("https://api.danielmedina.dev/v1/name")
+    fetch("https://api.danielmedina.dev/v1/name", {
+      headers: {
+        'X-API-Key': process.env.NAME_KEY
+      }
+    })
       .then((response) => response.json())
       .then((response) => setName(response.name));
   }, []);
