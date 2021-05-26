@@ -18,6 +18,9 @@ const Navbar = () => {
       <Link href="/contact">
         <a className={styles.nav}>contact</a>
       </Link>
+      <Link href="/dashboard">
+        <a className={styles.nav}>dashboard</a>
+      </Link>
     </nav>
   );
 };
