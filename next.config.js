@@ -4,6 +4,7 @@ module.exports = {
         defaultLocale: "en-US",
     },
     env: {
-        NAME_KEY: process.env.KEY
+        NAME_KEY: process.env.KEY,
+        MONGODB: process.env.MONGODB
     }
 };
