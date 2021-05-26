@@ -1,0 +1,39 @@
+.name {
+    font-size: 2em;
+    margin: 0;
+}
+
+.bio {
+    font-size: 1em;
+    margin: 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.label {
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+}
+
+.inputField {
+    margin: 10px 0;
+    background-color: #353535;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+}
